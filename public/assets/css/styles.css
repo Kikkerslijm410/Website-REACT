@@ -1,0 +1,254 @@
+/*-------------
+ 	General
+-------------*/
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+html{
+	font: normal 140% sans-serif;
+}
+
+ul, nav{
+	list-style: none;
+}
+
+h1{
+	font: bold 50px 'Open Sans', sans-serif;
+	margin-bottom: 15px;
+}
+
+/*-------------
+ 	Button
+-------------*/
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	opacity: 80%;
+}
+
+a:hover{
+	opacity: 100%;
+}
+
+a.btn{
+	color: #fff;
+	border-radius: 40px;
+	text-transform: uppercase;
+	background-color: #ed900d;
+	font-weight: 800;
+	text-align: center;
+	padding: 20px 46px;
+}
+
+/*-------------
+ 	Lines
+-------------*/
+hr{
+	width: 90%;
+	height: 2px;
+	background-color: #ed900d;
+	border: 1px solid #ed900d;
+	margin-bottom: 10%;
+}
+
+/*-------------
+ 	Sections
+-------------*/
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 120px 100px;
+}
+
+section h3.title{
+	color: #414a4f;
+	text-transform: capitalize; 
+	font: bold 130% 'Open Sans', sans-serif;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+section p{
+	max-width: 80%;
+	text-align: center;
+	margin-bottom: 35px;
+	padding: 0 20px;
+	line-height: 2;
+}
+
+ul.grid{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*-------------
+ 	Header
+-------------*/
+header{
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	background-color: #b04618;
+
+}
+
+header h2{
+	font-family: 'Quicksand', sans-serif;
+}
+
+header nav{
+	display: flex;
+}
+
+header nav li{
+	margin: 25px;
+}
+
+header h3{
+	font: bold 40px 'Open Sans', sans-serif;
+}
+
+header a{
+	font: bold 30px 'Open Sans', sans-serif;
+}
+
+/*----------------
+ 	Hero2 Section 
+----------------*/
+.hero2{
+	position: relative;
+	justify-content: center;
+	color: #fff;
+	text-align: center;
+}
+
+/*----------------
+ 	Hero Section
+----------------*/
+.hero{
+	position: relative;
+	justify-content: center;
+	min-height: 100vh;
+	color: #fff;
+	text-align: center;
+}
+
+.background-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-color: #1076c9;
+	z-index: -1;
+}
+
+.background-image:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #5b4a21;
+	opacity: 0.7;
+	alt: "Foto van een achtbaan"
+}
+
+.hero h3{
+	font: normal 20px 'Open Sans', sans-serif;
+	margin-bottom: 60px;
+}
+
+@media (max-width: 800px){
+
+	.hero{
+		min-height: 400px;
+	}
+
+	h1{
+		font-size: 60px;
+	}
+
+	.hero h3{
+		font-size: 24px;
+	}
+
+	.hero a.btn{
+		padding: 15px 40px;
+	}
+
+}
+
+/*---------------------
+ 	Contact Section
+---------------------*/
+.contact{
+	background-color: #f7f7f7;
+}
+
+.contact form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 80%;
+}
+
+.contact form input{
+	padding: 15px;
+	flex: 1;
+	margin-right: 30px;
+	font-size: 18px;
+	color: #555;
+}
+
+.contact form .btn{
+	padding: 18px 42px;
+}
+
+.contact div{
+	max-width: 800px;
+}
+
+/*-------------
+ 	Footer
+-------------*/
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background-color: #b04618;
+	padding: 60px 0;
+}
+
+footer ul{
+	display: flex;
+	margin-bottom: 25px;
+	font-size: 50px;
+}
+
+footer li{
+	margin: 0 10px;	
+}
+
+footer p{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: rgba(255,255,255,0.6);
+	margin-bottom: 10px;
+}
