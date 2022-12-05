@@ -1,5 +1,6 @@
 import React from "react";
 
+//const Alinea = ({titel, tekst}) => {
 const Alinea = (props) => {
     const {titel,tekst} = props
 
