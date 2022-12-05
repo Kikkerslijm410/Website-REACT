@@ -1,5 +1,5 @@
 import React from "react";
-import Alinea from "./Alinea";
+import Alinea from "../../Shared/Alinea";
 import Formulier from "./Formulier";
 
 const Contact = () => {
