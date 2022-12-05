@@ -34,7 +34,18 @@ a:hover{
 	opacity: 100%;
 }
 
-a.btn{
+button{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	opacity: 80%;
+}
+
+button:hover{
+	opacity: 100%;
+}
+
+.btn{
 	color: #fff;
 	border-radius: 40px;
 	text-transform: uppercase;
