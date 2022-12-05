@@ -1,16 +1,16 @@
 import React from "react";
+import Link from "./Link";
 
 const Footer = () => {         
 return (
         <footer>
             <p>Volg ons op:</p>
             <ul>
-            {/* https://fontawesome.com/icons */}
-            <li><a href="#" target="_blank"><i className="fa fa-twitter-square" /></a></li>
-            <li><a href="#" target="_blank"><i className="fa fa-facebook-square" /></a></li>
-            <li><a href="#" target="_blank"><i className="fa fa-snapchat-square" /></a></li>
-            <li><a href="#" target="_blank"><i className="fa fa-youtube-square" /></a></li>
-            <li><a href="#" target="_blank"><i className="fa-brands fa-square-instagram" /></a></li>
+            <Link icon="fa fa-twitter-square"/>
+            <Link icon="fa fa-facebook-square"/>
+            <Link icon="fa fa-snapchat-square"/>
+            <Link icon="fa fa-youtube-square"/>
+            <Link icon="fa-brands fa-square-instagram"/>
             </ul> 
             <p>Made by <a href="https://github.com/Kikkerslijm410" target="_blank">Lucas clavel</a></p>
             <p>Lees hier<a href="/Voorwaarden.html"> de algemene voorwaarden</a></p>
