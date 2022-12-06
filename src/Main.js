@@ -6,6 +6,7 @@ import Contact from "./Pages/Contact/Contact";
 import Tickets from "./Pages/Tickets/Tickets";
 import Plattegrond from "./Pages/Plattegrond/Plattegrond";
 import Accesibility from "./Pages/Accesibility/Accesibility";
+import Voorwaarden from "./Pages/Voorwaarden/Voorwaarden";
 
 class Main extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class Main extends React.Component {
             <Route path="/Tickets" element={<Tickets />} />
             <Route path="/Plattegrond" element={<Plattegrond />} />
             <Route path="/Accesibility" element={<Accesibility />} />
+            <Route path="/Voorwaarden" element={<Voorwaarden />} />
           </Routes>
       </BrowserRouter>
     );

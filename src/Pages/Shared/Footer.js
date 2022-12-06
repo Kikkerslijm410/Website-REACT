@@ -13,7 +13,7 @@ return (
             <Link icon="fa-brands fa-square-instagram"/>
             </ul> 
             <p>Made by <a href="https://github.com/Kikkerslijm410" target="_blank">Lucas clavel</a></p>
-            <p>Lees hier<a href="/Voorwaarden.html"> de algemene voorwaarden</a></p>
+            <p>Lees hier<a href="/Voorwaarden"> de algemene voorwaarden</a></p>
         </footer>
     );
 } 

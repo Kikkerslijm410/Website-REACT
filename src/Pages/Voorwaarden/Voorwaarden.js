@@ -3,7 +3,7 @@ import Alinea from "../Shared/Alinea";
 import Hero2 from "../Shared/Components/Hero2";
 
 
-class Tickets extends Component {
+class Voorwaarden extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -13,8 +13,8 @@ class Tickets extends Component {
     render () {
         return(
             <>
-                <Hero2 tekst="Tickets"/>
-                
+                <Hero2 tekst="Algemene voorwaarden"/>
+
                 <section className="contact">
                     <Alinea titel="Dit is een kop" tekst="Dit is een tekst"/>
                 </section>
@@ -23,4 +23,4 @@ class Tickets extends Component {
     }
 }
 
-export default Tickets;
+export default Voorwaarden;
