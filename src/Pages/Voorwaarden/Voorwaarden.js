@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Alinea from "../Shared/Alinea";
-import Hero2 from "../Shared/Components/Hero2";
+import Hero2 from "../Shared/Hero2";
 
 
 class Voorwaarden extends Component {
