@@ -13,18 +13,19 @@ body {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  margin-right: 100px;
-  margin-left: 100px;
+}
+
+.row.center {
+  align-items: center;
 }
 
 .col-1 {
-  flex-basis: 100%;
+  flex: 1;
 }
 
 .col-2 {
-  flex-basis: 100%;
+  flex: 2;
 }
 
 @media screen and (min-width: 800px) {
@@ -37,45 +38,29 @@ body {
 }
 
 .block {
-  opacity: 90%;
-  padding: 1rem;
-  margin-bottom: 0.5rem;
-  background-color: white;
-
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.block2 {
-  opacity: 90%;
-  padding: 1rem;
-  margin-bottom: 0.5rem;
-  background-color: #b04618;
-
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.card {
+  background-color: #ed900d;
   padding: 1rem;
   margin: 0.5rem;
-  background-color: #b04618;
-  color: white;
-  border-radius: 30px;
+  border-radius: 0.5rem;
 }
 
 button {
-  background-color: #ed900d;
-  color: white;
-  border: none;
-  border-radius: 30px;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
+  color: #fff;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  margin: 0.1rem;
+  border-radius: 20px;
+  width: 100%;
   cursor: pointer;
+}
+button.add {
+  background-color: #40c0f0;
+  width: 1.5rem;
+}
+button.remove {
+  background-color: #ff0000;
+  width: 1.5rem;
 }

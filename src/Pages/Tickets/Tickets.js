@@ -7,9 +7,9 @@ const Tickets = () => {
     return (
         <>
             <Hero2 tekst="Tickets"/>
+            <Winkel />
 
             <section className="contact">
-                <Winkel />
                 <Alinea titel="Dit is een kop" tekst="Dit is een tekst"/>
             </section>
         </>
